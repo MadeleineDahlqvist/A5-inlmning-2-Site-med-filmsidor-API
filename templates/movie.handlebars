@@ -1,0 +1,10 @@
+<h2>{{payload.data.attributes.title}}</h2>
+
+
+{{#if payload.data.attributes.image }}
+  <img class="movieImage" src="{{ payload.data.attributes.image.url }}">
+  {{/if }}
+  
+  <div class="intro">
+    {{{ payload.data.attributes.intro }}}
+    </div>

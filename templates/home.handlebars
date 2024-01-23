@@ -1,0 +1,9 @@
+<ul>
+  {{#each movies}}
+    <li>
+        <a href="/movie/{{ this.id }}">
+      {{this.attributes.title}}
+      </a>
+    </li>
+  {{/each}}
+</ul>

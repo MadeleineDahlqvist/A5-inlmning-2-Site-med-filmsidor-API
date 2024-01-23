@@ -11,6 +11,9 @@
     font-size: 2em;
   }
   
-  .movie img {
-    max-width: 14rem;
+  .movieImage {
+    max-width: 10rem;
   }
+  .intro {
+    max-width: 40rem;
+}
