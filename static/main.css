@@ -1,19 +1,44 @@
 * {
-    font-family: sans-serif;
-  }
-  
-  .header {
-    padding: 1em;
-    background: #eee;
-  }
-  
-  .header h1 {
-    font-size: 2em;
-  }
-  
-  .movieImage {
-    max-width: 10rem;
-  }
-  .intro {
-    max-width: 40rem;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  background: rgb(241, 236, 236);
+}
+.header {
+  background: #800020;
+  height: 10em;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+}
+.header__logo {
+  height: 9em;
+  width: auto;
+  margin-right: auto;
+  margin-bottom: -7.5em;
+  padding: 3px;
+  margin-left: 0.9em;
+}
+.title {
+  margin-left: 0.7em;
+}
+.movieImage {
+  max-width: 10rem;
+  margin-left: 1.2em;
+}
+.intro {
+  max-width: 40rem;
+  margin-left: 1.2em;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 2em;
+  width: 100%;
+  background-color: #800020;
+  color: white;
+  text-align: center;
 }
